@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+    int numeros[5] = {1, 2, 3, 4, 5};
+    cout << "Contenido del arreglo:" << endl;
+    for (int i = 4; i >= 0; i--)
+    {
+        cout << "Elemento en la pocision " << i << ": " << numeros[i] << endl;
+    }
+    return 0;
+}
